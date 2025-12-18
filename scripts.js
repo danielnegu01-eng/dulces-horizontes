@@ -8,7 +8,8 @@ fetch('recetas.json')
     })
     .catch(error => {
         console.error('Error:', error);
-        document.getElementById('recetas-grid').innerHTML = '<p class="no-results">Error al cargar las recetas.</p>';
+        document.getElementById('recetas-grid').innerHTML =
+            '<p class="no-results">Error al cargar las recetas.</p>';
     });
 
 function renderizarRecetas(recetas) {
@@ -16,7 +17,8 @@ function renderizarRecetas(recetas) {
     grid.innerHTML = '';
 
     if (recetas.length === 0) {
-        grid.innerHTML = '<p class="no-results">No se encontraron delicias que coincidan con tu búsqueda.</p>';
+        grid.innerHTML =
+            '<p class="no-results">No se encontraron delicias que coincidan con tu búsqueda.</p>';
         return;
     }
 
@@ -26,7 +28,11 @@ function renderizarRecetas(recetas) {
         card.onclick = () => abrirModal(receta);
 
         card.innerHTML = `
-            <img src="${receta.imagen}" alt="${receta.nombre}">
+            <img 
+              src="${receta.imagen}?auto=format&fit=crop&w=800&q=80"
+              alt="${receta.nombre}"
+              loading="lazy"
+            >
             <div class="recipe-info">
                 <h2>${receta.nombre}</h2>
                 <p>${receta.descripcion}</p>
@@ -45,7 +51,11 @@ function abrirModal(receta) {
     const modalBody = document.getElementById('modal-body');
 
     modalBody.innerHTML = `
-        <img src="${receta.imagen}" alt="${receta.nombre}" class="modal-img">
+        <img 
+          src="${receta.imagen}?auto=format&fit=crop&w=1200&q=80"
+          alt="${receta.nombre}"
+          class="modal-img"
+        >
         <h2>${receta.nombre}</h2>
         <p><strong>Descripción:</strong> ${receta.descripcion}</p>
         <h3>Ingredientes:</h3>
@@ -75,11 +85,11 @@ window.onclick = (event) => {
 document.getElementById('search-input').addEventListener('input', (e) => {
     const termino = e.target.value.toLowerCase().trim();
 
-    const filtradas = todasLasRecetas.filter(receta => {
-        return receta.nombre.toLowerCase().includes(termino) ||
-               receta.descripcion.toLowerCase().includes(termino) ||
-               receta.ingredientes.some(ing => ing.toLowerCase().includes(termino));
-    });
+    const filtradas = todasLasRecetas.filter(receta =>
+        receta.nombre.toLowerCase().includes(termino) ||
+        receta.descripcion.toLowerCase().includes(termino) ||
+        receta.ingredientes.some(ing => ing.toLowerCase().includes(termino))
+    );
 
     renderizarRecetas(filtradas);
 });
