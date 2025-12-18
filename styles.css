@@ -1,8 +1,4 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+* { margin: 0; padding: 0; box-sizing: border-box; }
 
 body {
     font-family: 'Roboto', sans-serif;
@@ -11,11 +7,7 @@ body {
     line-height: 1.6;
 }
 
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
-}
+.container { max-width: 1200px; margin: 0 auto; padding: 0 20px; }
 
 header {
     background-color: #d86b8f;
@@ -25,34 +17,15 @@ header {
     box-shadow: 0 4px 15px rgba(0,0,0,0.1);
 }
 
-header h1 {
-    font-family: 'Playfair Display', serif;
-    font-size: 3rem;
-    margin-bottom: 10px;
-}
+header h1 { font-family: 'Playfair Display', serif; font-size: 3rem; margin-bottom: 10px; }
 
-.subtitle {
-    font-size: 1.2rem;
-    margin-bottom: 20px;
-    opacity: 0.9;
-}
+.subtitle { font-size: 1.2rem; margin-bottom: 20px; opacity: 0.9; }
 
-nav a {
-    color: white;
-    text-decoration: none;
-    margin: 0 15px;
-    font-weight: 500;
-    font-size: 1.1rem;
-}
+nav a { color: white; text-decoration: none; margin: 0 15px; font-weight: 500; font-size: 1.1rem; }
 
-nav a:hover {
-    text-decoration: underline;
-}
+nav a:hover { text-decoration: underline; }
 
-.search-bar {
-    margin: 40px 0;
-    text-align: center;
-}
+.search-bar { margin: 40px 0; text-align: center; }
 
 #search-input {
     width: 100%;
@@ -65,10 +38,7 @@ nav a:hover {
     transition: all 0.3s;
 }
 
-#search-input:focus {
-    border-color: #c55a7e;
-    box-shadow: 0 0 15px rgba(216, 107, 143, 0.4);
-}
+#search-input:focus { border-color: #c55a7e; box-shadow: 0 0 15px rgba(216, 107, 143, 0.4); }
 
 #recetas-grid {
     display: grid;
@@ -97,9 +67,7 @@ nav a:hover {
     object-fit: cover;
 }
 
-.recipe-info {
-    padding: 25px;
-}
+.recipe-info { padding: 25px; }
 
 .recipe-info h2 {
     font-family: 'Playfair Display', serif;
@@ -108,14 +76,9 @@ nav a:hover {
     color: #d86b8f;
 }
 
-.recipe-info p {
-    color: #666;
-    margin-bottom: 15px;
-}
+.recipe-info p { color: #666; margin-bottom: 15px; }
 
-.ingredients {
-    list-style: none;
-}
+.ingredients { list-style: none; }
 
 .ingredients li {
     padding: 6px 0;
@@ -123,9 +86,7 @@ nav a:hover {
     color: #777;
 }
 
-.ingredients li:before {
-    content: "🍰 ";
-}
+.ingredients li:before { content: "🍰 "; }
 
 .no-results {
     grid-column: 1 / -1;
@@ -135,7 +96,6 @@ nav a:hover {
     margin: 60px 0;
 }
 
-/* Modal */
 .modal {
     display: none;
     position: fixed;
@@ -169,41 +129,15 @@ nav a:hover {
     cursor: pointer;
 }
 
-.close:hover {
-    color: #d86b8f;
-}
+.close:hover { color: #d86b8f; }
 
-.modal-img {
-    width: 100%;
-    border-radius: 15px;
-    margin-bottom: 20px;
-}
+.modal-img { width: 100%; border-radius: 15px; margin-bottom: 20px; }
 
-.modal h2 {
-    font-family: 'Playfair Display', serif;
-    font-size: 2.5rem;
-    color: #d86b8f;
-    margin-bottom: 15px;
-}
+.modal h2 { font-family: 'Playfair Display', serif; font-size: 2.5rem; color: #d86b8f; margin-bottom: 15px; }
 
-.modal ul {
-    margin: 20px 0;
-    padding-left: 20px;
-}
+.modal ul, .modal ol { margin: 20px 0; padding-left: 25px; }
 
-.modal li {
-    margin: 8px 0;
-}
-
-.modal ol {
-    margin: 20px 0;
-    padding-left: 25px;
-}
-
-.modal ol li {
-    margin: 12px 0;
-    font-size: 1.1rem;
-}
+.modal li { margin: 8px 0; font-size: 1.1rem; }
 
 footer {
     background-color: #d86b8f;
@@ -211,4 +145,5 @@ footer {
     text-align: center;
     padding: 25px 0;
     margin-top: 80px;
+}
 }
