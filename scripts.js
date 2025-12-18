@@ -25,10 +25,8 @@ function renderizarRecetas(recetas) {
         card.className = 'recipe-card';
         card.onclick = () => abrirModal(receta);
 
-        const imgUrl = receta.imagen;
-
         card.innerHTML = `
-            <img src="${imgUrl}" alt="${receta.nombre}">
+            <img src="${receta.imagen}" alt="${receta.nombre}">
             <div class="recipe-info">
                 <h2>${receta.nombre}</h2>
                 <p>${receta.descripcion}</p>
@@ -63,7 +61,6 @@ function abrirModal(receta) {
     modal.style.display = 'block';
 }
 
-// Cerrar modal
 document.querySelector('.close').onclick = () => {
     document.getElementById('modal').style.display = 'none';
 };
@@ -75,7 +72,6 @@ window.onclick = (event) => {
     }
 };
 
-// Búsqueda en tiempo real
 document.getElementById('search-input').addEventListener('input', (e) => {
     const termino = e.target.value.toLowerCase().trim();
 
