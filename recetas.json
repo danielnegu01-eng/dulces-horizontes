@@ -12,7 +12,7 @@
             "Para el ganache: Calienta la nata y viértela sobre el chocolate troceado. Remueve hasta que se funda.",
             "Monta las capas con ganache y cubre todo el pastel. Refrigera 1 hora antes de servir."
         ],
-        "imagen": "https://images.unsplash.com/photo-1602351447933-4bfe252e9eb3?w=800"
+        "imagen": "https://images.unsplash.com/photo-1602351447933-4bfe252e9eb3"
     },
     {
         "nombre": "Conchas Mexicanas",
@@ -26,7 +26,7 @@
             "Forma bollos, coloca la cubierta y decora con líneas. Leuda 45 min más.",
             "Hornea a 180°C por 15-20 minutos. Espolvorea azúcar al salir del horno."
         ],
-        "imagen": "https://images.unsplash.com/photo-1632172736203-0c90b14e7e5c?w=800"
+        "imagen": "https://images.unsplash.com/photo-1632172736203-0c90b14e7e5c"
     },
     {
         "nombre": "Macarons Franceses",
@@ -40,7 +40,7 @@
             "Hornea a 140-150°C por 12-15 minutos.",
             "Para el relleno: prepara ganache y deja enfriar. Rellena y madura 24h en nevera."
         ],
-        "imagen": "https://images.unsplash.com/photo-1558322621-4e7d4e3c0c23?w=800"
+        "imagen": "https://images.unsplash.com/photo-1558322621-4e7d4e3c0c23"
     },
     {
         "nombre": "Tarta de Frutas Frescas",
@@ -53,7 +53,7 @@
             "Corta y coloca las frutas artísticamente.",
             "Pincela con gelatina neutra para brillo. Refrigera 1 hora."
         ],
-        "imagen": "https://images.unsplash.com/photo-1565958011703-0c5b3f9b8f0f?w=800"
+        "imagen": "https://images.unsplash.com/photo-1565958011703-0c5b3f9b8f0f"
     },
     {
         "nombre": "Pan de Muerto",
@@ -67,7 +67,7 @@
             "Leuda 1 hora más. Pincela con huevo.",
             "Hornea a 180°C 20-30 min. Espolvorea con azúcar."
         ],
-        "imagen": "https://images.unsplash.com/photo-1639499279433-7e7e5e9d9e9d?w=800"
+        "imagen": "https://images.unsplash.com/photo-1639499279433-7e7e5e9d9e9d"
     },
     {
         "nombre": "Croissants",
@@ -81,7 +81,7 @@
             "Leuda 1-2 horas. Pincela con huevo.",
             "Hornea a 200°C 15-20 minutos hasta dorados."
         ],
-        "imagen": "https://images.unsplash.com/photo-1551107696-5d6e0c7f8d8e?w=800"
+        "imagen": "https://images.unsplash.com/photo-1551107696-5d6e0c7f8d8e"
     },
     {
         "nombre": "Flan Casero",
@@ -94,7 +94,7 @@
             "Hornea al baño María a 150°C por 45-60 minutos.",
             "Enfría completamente y desmolda."
         ],
-        "imagen": "https://images.unsplash.com/photo-1582719471384-894937e98438?w=800"
+        "imagen": "https://images.unsplash.com/photo-1582719471384-894937e98438"
     },
     {
         "nombre": "Cupcakes Decorados",
@@ -107,6 +107,9 @@
             "Buttercream: Bate mantequilla, añade azúcar glass y leche hasta cremoso.",
             "Decora con manga pastelera y boquillas a gusto."
         ],
-        "imagen": "https://images.unsplash.com/photo-1614707267537-b85aaf00c4b8?w=800"
+        "imagen": "https://images.unsplash.com/photo-1614707267537-b85aaf00c4b8"
     }
+]
+    }
+
 ]
