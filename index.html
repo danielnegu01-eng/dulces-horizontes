@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dulces Horizontes - Repostería y Panadería</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Dulces Horizontes</h1>
+            <p class="subtitle">Recetas de repostería, pastelería y panadería</p>
+            <nav>
+                <a href="index.html">Inicio</a>
+                <a href="catalogos.html">Catálogos</a>
+                <a href="buscador.html">Buscador</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <div class="search-bar">
+            <input type="text" id="search-input" placeholder="Buscar postres, pasteles, panes dulces o ingredientes...">
+        </div>
+
+        <section id="recetas-grid">
+            <p>Cargando delicias dulces...</p>
+        </section>
+    </main>
+
+    <!-- Modal para receta completa -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div id="modal-body"></div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Dulces Horizontes. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>

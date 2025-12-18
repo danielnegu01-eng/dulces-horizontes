@@ -1,0 +1,112 @@
+[
+    {
+        "nombre": "Pastel de Chocolate",
+        "descripcion": "Delicioso pastel húmedo con capas de ganache de chocolate.",
+        "ingredientes": ["200 g harina", "200 g azúcar", "75 g cacao puro", "1.5 cdta bicarbonato", "1.5 cdta levadura", "pizca de sal", "2 huevos", "250 ml leche", "125 ml aceite vegetal", "2 cdta vainilla", "250 ml agua hirviendo", "300 g chocolate negro (ganache)", "300 ml nata (ganache)"],
+        "instrucciones": [
+            "Precalienta el horno a 180°C. Engrasa y enharina dos moldes redondos de 20-22 cm.",
+            "Tamiza la harina, azúcar, cacao, bicarbonato, levadura y sal.",
+            "Añade los huevos, leche, aceite y vainilla. Bate hasta integrar.",
+            "Incorpora el agua hirviendo lentamente (la masa quedará líquida).",
+            "Divide en los moldes y hornea 30-35 minutos. Enfría completamente.",
+            "Para el ganache: Calienta la nata y viértela sobre el chocolate troceado. Remueve hasta que se funda.",
+            "Monta las capas con ganache y cubre todo el pastel. Refrigera 1 hora antes de servir."
+        ],
+        "imagen": "https://images.unsplash.com/photo-1602351447933-4bfe252e9eb3?w=800"
+    },
+    {
+        "nombre": "Conchas Mexicanas",
+        "descripcion": "Pan dulce tradicional con costra crujiente de vainilla o chocolate.",
+        "ingredientes": ["500 g harina", "100 g azúcar", "10 g levadura fresca", "250 ml leche tibia", "100 g mantequilla", "2 huevos", "pizca de sal", "ralladura de naranja"],
+        "instrucciones": [
+            "Disuelve la levadura en la leche tibia con una cucharada de azúcar. Deja reposar 10 min.",
+            "Mezcla la harina, azúcar, sal y ralladura. Añade huevos, mantequilla derretida y la mezcla de levadura.",
+            "Amasa 10-15 minutos hasta que esté elástica. Deja leudar 1-2 horas.",
+            "Prepara la cubierta: bate 200 g mantequilla con 200 g azúcar glass y 200 g harina. Divide y añade cacao a la mitad.",
+            "Forma bollos, coloca la cubierta y decora con líneas. Leuda 45 min más.",
+            "Hornea a 180°C por 15-20 minutos. Espolvorea azúcar al salir del horno."
+        ],
+        "imagen": "https://images.unsplash.com/photo-1632172736203-0c90b14e7e5c?w=800"
+    },
+    {
+        "nombre": "Macarons Franceses",
+        "descripcion": "Delicados merengues rellenos de ganache o crema.",
+        "ingredientes": ["150 g almendra molida", "150 g azúcar glass", "110 g claras envejecidas", "150 g azúcar", "colorante alimentario"],
+        "instrucciones": [
+            "Tamiza la almendra molida y el azúcar glass.",
+            "Bate las claras a punto de nieve, añade el azúcar gradualmente hasta merengue firme.",
+            "Incorpora el colorante y mezcla con la seca en movimientos envolventes (macaronage).",
+            "Forma círculos en bandeja con silpat. Deja secar 30-60 min hasta formar piel.",
+            "Hornea a 140-150°C por 12-15 minutos.",
+            "Para el relleno: prepara ganache y deja enfriar. Rellena y madura 24h en nevera."
+        ],
+        "imagen": "https://images.unsplash.com/photo-1558322621-4e7d4e3c0c23?w=800"
+    },
+    {
+        "nombre": "Tarta de Frutas Frescas",
+        "descripcion": "Base crujiente con crema pastelera y frutas de temporada.",
+        "ingredientes": ["Masa quebrada", "500 ml leche", "100 g azúcar", "4 yemas", "40 g maicena", "vainilla", "frutas variadas"],
+        "instrucciones": [
+            "Hornea la masa quebrada en ciego a 180°C por 20 minutos. Enfría.",
+            "Prepara crema pastelera: calienta leche con vainilla. Bate yemas, azúcar y maicena. Templa y cuece hasta espesar.",
+            "Rellena la base con la crema fría.",
+            "Corta y coloca las frutas artísticamente.",
+            "Pincela con gelatina neutra para brillo. Refrigera 1 hora."
+        ],
+        "imagen": "https://images.unsplash.com/photo-1565958011703-0c5b3f9b8f0f?w=800"
+    },
+    {
+        "nombre": "Pan de Muerto",
+        "descripcion": "Pan dulce tradicional para Día de Muertos con azahar y azúcar.",
+        "ingredientes": ["500 g harina", "100 g azúcar", "10 g levadura", "125 g mantequilla", "2 huevos + 2 yemas", "ralladura de naranja", "agua de azahar"],
+        "instrucciones": [
+            "Activa la levadura en agua tibia.",
+            "Mezcla harina, azúcar, sal y ralladura. Añade huevos, mantequilla y levadura.",
+            "Amasa hasta suave y leuda 1-2 horas.",
+            "Reserva masa para decorar (huesitos y bolita). Forma panes redondos.",
+            "Leuda 1 hora más. Pincela con huevo.",
+            "Hornea a 180°C 20-30 min. Espolvorea con azúcar."
+        ],
+        "imagen": "https://images.unsplash.com/photo-1639499279433-7e7e5e9d9e9d?w=800"
+    },
+    {
+        "nombre": "Croissants",
+        "descripcion": "Hojaldre crujiente y mantecoso recién horneado.",
+        "ingredientes": ["500 g harina de fuerza", "10 g sal", "50 g azúcar", "10 g levadura", "250 ml agua fría", "250 g mantequilla fría"],
+        "instrucciones": [
+            "Mezcla harina, sal, azúcar, levadura y agua. Amasa y refrigera 1 hora.",
+            "Forma la mantequilla en rectángulo y encierra en la masa.",
+            "Da 3 vueltas simples, refrigerando 30 min entre cada una.",
+            "Estira, corta triángulos y enrolla formando croissants.",
+            "Leuda 1-2 horas. Pincela con huevo.",
+            "Hornea a 200°C 15-20 minutos hasta dorados."
+        ],
+        "imagen": "https://images.unsplash.com/photo-1551107696-5d6e0c7f8d8e?w=800"
+    },
+    {
+        "nombre": "Flan Casero",
+        "descripcion": "Postre cremoso con caramelo líquido.",
+        "ingredientes": ["150 g azúcar (caramelo)", "750 ml leche", "150 g azúcar", "5 huevos", "vainilla"],
+        "instrucciones": [
+            "Caramelo: Funde 150 g de azúcar hasta ámbar y vierte en el molde.",
+            "Bate huevos con azúcar y vainilla. Añade leche tibia.",
+            "Vierte en el molde caramelizado.",
+            "Hornea al baño María a 150°C por 45-60 minutos.",
+            "Enfría completamente y desmolda."
+        ],
+        "imagen": "https://images.unsplash.com/photo-1582719471384-894937e98438?w=800"
+    },
+    {
+        "nombre": "Cupcakes Decorados",
+        "descripcion": "Pequeños pasteles con buttercream y decoraciones creativas.",
+        "ingredientes": ["120 g harina", "150 g azúcar", "120 g mantequilla", "2 huevos", "120 ml leche", "vainilla", "levadura", "250 g mantequilla (buttercream)", "500 g azúcar glass"],
+        "instrucciones": [
+            "Bate mantequilla y azúcar. Añade huevos y vainilla.",
+            "Incorpora harina tamizada con levadura alternando con leche.",
+            "Hornea en moldes para cupcakes a 180°C 18-20 min. Enfría.",
+            "Buttercream: Bate mantequilla, añade azúcar glass y leche hasta cremoso.",
+            "Decora con manga pastelera y boquillas a gusto."
+        ],
+        "imagen": "https://images.unsplash.com/photo-1614707267537-b85aaf00c4b8?w=800"
+    }
+]
